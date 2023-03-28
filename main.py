@@ -33,7 +33,8 @@ def get_data(myfile):
 
 
 
-myfilename='data/LengthOfStay.csv'
+myfilename='LengthOfStay.csv'
+#myfilename='data/LengthOfStay.csv'
 df = get_data(myfilename)
 
 from os.path import basename, exists
